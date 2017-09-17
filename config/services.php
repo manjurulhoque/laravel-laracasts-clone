@@ -35,4 +35,16 @@ return [
         'secret' => env('STRIPE_SECRET'),
     ],
 
+    'github' => [
+	    'client_id' => 'a6c9f37007ff93c3b55e',
+	    'client_secret' => '3fa3ca2ffe0bb6d5481e4458453be08b6d59cb9c',
+	    'redirect' => 'http://localhost:8000/github/redirect',
+    ],
+
+    'twitter' => [
+	    'client_id'     => 'nTNVUvWHurR5vVAOyl1gWwFa0',
+	    'client_secret' => 'K4rkOeZnQfRW7eG5loI2fQUu9WhRAhlwsXIvOUslHFjXJsbS4P',
+	    'redirect'      => 'http://localhost:8000/login/twitter/callback',
+    ],
+
 ];
